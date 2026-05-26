@@ -1,0 +1,73 @@
+import Link from "next/link";
+import { formatPrice, getProducts } from "@/lib/products";
+
+export default async function HomePage() {
+  const products = await getProducts();
+
+  return (
+    <main className="site-shell">
+      <section className="hero">
+        <span className="eyebrow">MVP ecommerce</span>
+        <div className="hero-grid">
+          <div>
+            <h1>Vitrine simples, foco total na conversão.</h1>
+          </div>
+          <div className="hero-panel">
+            <span className="hero-badge">Fluxo definido</span>
+            <p>
+              Home com produtos mockados em JSON, página de produto com detalhes
+              do item selecionado e compra enviada direto para o WhatsApp.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="section-header">
+          <div>
+            <h2>Produtos mockados</h2>
+            <p>
+              Cada produto vem de um JSON local, sem banco de dados nesta fase.
+            </p>
+          </div>
+          <span className="badge">{products.length} itens na vitrine</span>
+        </div>
+
+        <div className="products-grid">
+          {products.map((product, index) => (
+            <Link key={product.id} href={`/produto/${product.id}`} className="product-card">
+              <article>
+                <div
+                  className={`product-visual ${index % 3 === 1 ? "product-visual--light" : ""} ${index % 3 === 2 ? "product-visual--mid" : ""}`}
+                >
+                  <img
+                    src={product.imagem_url?.[0] ?? "/camisa/placeholder.jpg"}
+                    alt={product.titulo}
+                    className="product-visual__img"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div className="summary-stack">
+                  <div className="summary-row">
+                    <h3>{product.titulo}</h3>
+                    <span className={`badge ${product.disponivel ? "badge--available" : ""}`}>
+                      {product.disponivel ? "Disponível" : "Indisponível"}
+                    </span>
+                  </div>
+
+                  <p className="small-copy">{product.descricao}</p>
+
+                  <div className="card-meta">
+                    <strong className="price">{formatPrice(product.preco)}</strong>
+                    <span className="badge">Ver produto</span>
+                  </div>
+                </div>
+              </article>
+            </Link>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}

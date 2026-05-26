@@ -1,0 +1,452 @@
+[
+  {
+    "id": "brasil-home-2026",
+    "titulo": "Camisa Seleção Brasileira Home - Amarela",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/brasil-home.png"],
+    "descricao": "A clássica amarelinha com tecido tecnológico de alta respirabilidade. Ideal para torcer e usar no dia a dia.",
+    "opcoes": {
+      "tamanhos": ["P", "M", "G", "GG"],
+      "cores": ["Amarelo Ouro"]
+    },
+    "disponivel": true
+  },
+  {
+    "id": "argentina-home-2026",
+    "titulo": "Camisa Seleção Argentina Home - Alviceleste",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/argentina-home.png"],
+    "descricao": "As tradicionais listras em azul celeste e branco, com escudo bordado e patch oficial.",
+    "opcoes": {
+      "tamanhos": ["M", "G", "GG"],
+      "cores": ["Azul Celeste/Branco"]
+    },
+    "disponivel": true
+  },
+  {
+    "id": "franca-home-2026",
+    "titulo": "Camisa Seleção Francesa Home - Azul",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/franca-home.png"],
+    "descricao": "Design elegante em azul-marinho com detalhes em dourado. Linha premium para o MVP.",
+    "opcoes": {
+      "tamanhos": ["P", "M", "G"],
+      "cores": ["Azul-Marinho"]
+    },
+    "disponivel": true
+  },
+  {
+    "id": "japao-special-2026",
+    "titulo": "Camisa Seleção do Japão - Concept Blue",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/japao-special.png"],
+    "descricao": "Edição especial com estampa texturizada inspirada na cultura artística japonesa. Sucesso de vendas.",
+    "opcoes": {
+      "tamanhos": ["P", "M", "G", "GG"],
+      "cores": ["Azul/Arte"]
+    },
+    "disponivel": true
+  },
+  {
+    "id": "alemanha-away-2026",
+    "titulo": "Camisa Seleção Alemã Away - Preta/Rosa",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/alemanha-away.png"],
+    "descricao": "Modelo reserva com um design moderno e disruptivo, misturando tons escuros e vibrantes.",
+    "opcoes": {
+      "tamanhos": ["M", "G"],
+      "cores": ["Preto/Rosa"]
+    },
+    "disponivel": false
+  },
+  {
+    "id": "portugal-home-2026",
+    "titulo": "Camisa Seleção de Portugal Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/portugal-home.png"],
+    "descricao": "O clássico rubro-verde com detalhes elegantes na gola. Conforto e caimento perfeito.",
+    "opcoes": {
+      "tamanhos": ["P", "M", "G", "GG"],
+      "cores": ["Vermelho Escuro"]
+    },
+    "disponivel": true
+  },
+  {
+    "id": "inglaterra-home-2026",
+    "titulo": "Camisa Inglaterra Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/inglaterra-home.png"],
+    "descricao": "Camisa oficial da seleção Inglaterra — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "espanha-home-2026",
+    "titulo": "Camisa Espanha Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/espanha-home.png"],
+    "descricao": "Camisa oficial da seleção Espanha — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "italia-home-2026",
+    "titulo": "Camisa Itália Home - Azul",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/italia-home.png"],
+    "descricao": "Camisa oficial da seleção Itália — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "holanda-home-2026",
+    "titulo": "Camisa Holanda Home - Laranja",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/holanda-home.png"],
+    "descricao": "Camisa oficial da seleção Holanda — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "belgica-home-2026",
+    "titulo": "Camisa Bélgica Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/belgica-home.png"],
+    "descricao": "Camisa oficial da seleção Bélgica — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "croacia-home-2026",
+    "titulo": "Camisa Croácia Home - Grid",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/croacia-home.png"],
+    "descricao": "Camisa oficial da seleção Croácia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "suica-home-2026",
+    "titulo": "Camisa Suíça Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/suica-home.png"],
+    "descricao": "Camisa oficial da seleção Suíça — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "dinamarca-home-2026",
+    "titulo": "Camisa Dinamarca Home - Vinho",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/dinamarca-home.png"],
+    "descricao": "Camisa oficial da seleção Dinamarca — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "suecia-home-2026",
+    "titulo": "Camisa Suécia Home - Amarela",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/suecia-home.png"],
+    "descricao": "Camisa oficial da seleção Suécia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "polonia-home-2026",
+    "titulo": "Camisa Polônia Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/polonia-home.png"],
+    "descricao": "Camisa oficial da seleção Polônia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "austria-home-2026",
+    "titulo": "Camisa Áustria Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/austria-home.png"],
+    "descricao": "Camisa oficial da seleção Áustria — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "republica-tcheca-home-2026",
+    "titulo": "Camisa República Tcheca Home - Vinho",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/republica-tcheca-home.png"],
+    "descricao": "Camisa oficial da seleção República Tcheca — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "turquia-home-2026",
+    "titulo": "Camisa Turquia Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/turquia-home.png"],
+    "descricao": "Camisa oficial da seleção Turquia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "noruega-home-2026",
+    "titulo": "Camisa Noruega Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/noruega-home.png"],
+    "descricao": "Camisa oficial da seleção Noruega — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "marrocos-home-2026",
+    "titulo": "Camisa Marrocos Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/marrocos-home.png"],
+    "descricao": "Camisa oficial da seleção Marrocos — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "senegal-home-2026",
+    "titulo": "Camisa Senegal Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/senegal-home.png"],
+    "descricao": "Camisa oficial da seleção Senegal — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "tunisia-home-2026",
+    "titulo": "Camisa Tunísia Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/tunisia-home.png"],
+    "descricao": "Camisa oficial da seleção Tunísia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "argelia-home-2026",
+    "titulo": "Camisa Argélia Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/argelia-home.png"],
+    "descricao": "Camisa oficial da seleção Argélia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "nigeria-home-2026",
+    "titulo": "Camisa Nigéria Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/nigeria-home.png"],
+    "descricao": "Camisa oficial da seleção Nigéria — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "egito-home-2026",
+    "titulo": "Camisa Egito Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/egito-home.png"],
+    "descricao": "Camisa oficial da seleção Egito — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "ghana-home-2026",
+    "titulo": "Camisa Gana Home - Preta",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/ghana-home.png"],
+    "descricao": "Camisa oficial da seleção Gana — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "camaroes-home-2026",
+    "titulo": "Camisa Camarões Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/camaroes-home.png"],
+    "descricao": "Camisa oficial da seleção Camarões — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "estados-unidos-home-2026",
+    "titulo": "Camisa Estados Unidos Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/estados-unidos-home.png"],
+    "descricao": "Camisa oficial da seleção Estados Unidos — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "canada-home-2026",
+    "titulo": "Camisa Canadá Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/canada-home.png"],
+    "descricao": "Camisa oficial da seleção Canadá — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "mexico-home-2026",
+    "titulo": "Camisa México Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/mexico-home.png"],
+    "descricao": "Camisa oficial da seleção México — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "costa-rica-home-2026",
+    "titulo": "Camisa Costa Rica Home - Azul",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/costa-rica-home.png"],
+    "descricao": "Camisa oficial da seleção Costa Rica — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "panama-home-2026",
+    "titulo": "Camisa Panamá Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/panama-home.png"],
+    "descricao": "Camisa oficial da seleção Panamá — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "honduras-home-2026",
+    "titulo": "Camisa Honduras Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/honduras-home.png"],
+    "descricao": "Camisa oficial da seleção Honduras — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "uruguai-home-2026",
+    "titulo": "Camisa Uruguai Home - Celeste",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/uruguai-home.png"],
+    "descricao": "Camisa oficial da seleção Uruguai — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "colombia-home-2026",
+    "titulo": "Camisa Colômbia Home - Amarela",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/colombia-home.png"],
+    "descricao": "Camisa oficial da seleção Colômbia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "chile-home-2026",
+    "titulo": "Camisa Chile Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/chile-home.png"],
+    "descricao": "Camisa oficial da seleção Chile — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "equador-home-2026",
+    "titulo": "Camisa Equador Home - Amarela",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/equador-home.png"],
+    "descricao": "Camisa oficial da seleção Equador — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "peru-home-2026",
+    "titulo": "Camisa Peru Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/peru-home.png"],
+    "descricao": "Camisa oficial da seleção Peru — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "australia-home-2026",
+    "titulo": "Camisa Austrália Home - Amarela",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/australia-home.png"],
+    "descricao": "Camisa oficial da seleção Austrália — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "coreia-do-sul-home-2026",
+    "titulo": "Camisa Coreia do Sul Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/coreia-do-sul-home.png"],
+    "descricao": "Camisa oficial da seleção Coreia do Sul — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "iran-home-2026",
+    "titulo": "Camisa Irã Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/iran-home.png"],
+    "descricao": "Camisa oficial da seleção Irã — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "arabia-saudita-home-2026",
+    "titulo": "Camisa Arábia Saudita Home - Verde",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/arabia-saudita-home.png"],
+    "descricao": "Camisa oficial da seleção Arábia Saudita — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "qatar-home-2026",
+    "titulo": "Camisa Qatar Home - Marrom",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/qatar-home.png"],
+    "descricao": "Camisa oficial da seleção Qatar — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "nova-zelandia-home-2026",
+    "titulo": "Camisa Nova Zelândia Home - Preta",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/nova-zelandia-home.png"],
+    "descricao": "Camisa oficial da seleção Nova Zelândia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "macedonia-do-norte-home-2026",
+    "titulo": "Camisa Macedônia do Norte Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/macedonia-do-norte-home.png"],
+    "descricao": "Camisa oficial da seleção Macedônia do Norte — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "eslovaquia-home-2026",
+    "titulo": "Camisa Eslováquia Home - Branca",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/eslovaquia-home.png"],
+    "descricao": "Camisa oficial da seleção Eslováquia — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  },
+  {
+    "id": "pais-de-gales-home-2026",
+    "titulo": "Camisa País de Gales Home - Vermelha",
+    "preco": 129.90,
+    "imagem_url": ["/camisas/pais-de-gales-home.png"],
+    "descricao": "Camisa oficial da seleção País de Gales — versão Home para 2026.",
+    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
+    "disponivel": true
+  }
+]
