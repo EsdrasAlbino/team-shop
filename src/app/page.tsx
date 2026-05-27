@@ -7,13 +7,12 @@ export default async function HomePage() {
   return (
     <main className="site-shell">
       <section className="hero">
-        <span className="eyebrow">MVP ecommerce</span>
+        <span className="eyebrow">Genius Shop</span>
         <div className="hero-grid">
           <div>
-            <h1>Vitrine simples, foco total na conversão.</h1>
+            <h1>Use as camisas mais bonitas da copa 2026.</h1>
           </div>
           <div className="hero-panel">
-            <span className="hero-badge">Fluxo definido</span>
             <p>
               Home com produtos mockados em JSON, página de produto com detalhes
               do item selecionado e compra enviada direto para o WhatsApp.
