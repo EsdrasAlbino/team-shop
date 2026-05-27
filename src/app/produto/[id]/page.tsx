@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
   if (!product) {
     return {
-      title: "Produto não encontrado | TAEM Shop MVP",
+      title: "Produto não encontrado | Genius Shop MVP",
     };
   }
 
   return {
-    title: `${product.titulo} | TAEM Shop MVP`,
+    title: `${product.titulo} | Genius Shop MVP`,
     description: product.descricao,
   };
 }
