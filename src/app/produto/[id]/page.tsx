@@ -62,7 +62,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <span className={`badge ${product.disponivel ? "badge--available" : ""}`}>
                 {product.disponivel ? "Produto disponível" : "Produto indisponível"}
               </span>
-              <span className="badge">Imagem mockada pelo JSON</span>
             </div>
           </div>
         </section>
@@ -82,18 +81,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <p className="product-copy">{product.descricao}</p>
 
             <div className="option-group">
-              <span className="option-label">Tamanhos</span>
-              <div className="chips">
-                {product.opcoes.tamanhos.map((size) => (
-                  <span key={size} className="chip">
-                    {size}
-                  </span>
-                ))}
-              </div>
-            </div>
 
-            <div className="option-group">
-              <span className="option-label">Fluxo do MVP</span>
               <p className="meta-note">
                 Selecione o tamanho e a quantidade. O botão Comprar abre o
                 WhatsApp com uma mensagem padrão para iniciar a conversa de

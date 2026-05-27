@@ -17,7 +17,7 @@ type ProductShape = {
 
 export default function ProductActions({ product }: { product: ProductShape }) {
   const [size, setSize] = useState<string | null>(null);
-  const [quantity, setQuantity] = useState<number>(1);
+  const [quantity, setQuantity] = useState<string>("1");
 
   function formatPrice(value: number) {
     return new Intl.NumberFormat("pt-BR", {
@@ -29,8 +29,10 @@ export default function ProductActions({ product }: { product: ProductShape }) {
   function buildWhatsAppLink() {
     const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5581989114268";
 
+    const qty = Math.max(1, Number(quantity || "1"));
+
     const messageLines = [
-      `Olá! Quero a peça ${product.titulo}, ${quantity} unidade(s), tamanho ${size ?? "a definir"}.`,
+      `Olá! Quero a peça ${product.titulo}, ${qty} unidade(s), tamanho ${size ?? "a definir"}.`,
     ].filter(Boolean) as string[];
 
     return `https://wa.me/${number}?text=${encodeURIComponent(messageLines.join("\n"))}`;
@@ -81,7 +83,15 @@ export default function ProductActions({ product }: { product: ProductShape }) {
           type="number"
           min={1}
           value={quantity}
-          onChange={(e) => setQuantity(Math.max(1, Number(e.target.value || 1)))}
+          onChange={(e) => {
+            const v = e.target.value;
+            // allow empty while typing or digits only
+            if (v === "" || /^\d+$/.test(v)) setQuantity(v);
+          }}
+          onBlur={() => {
+            const num = Math.max(1, Number(quantity || "1"));
+            setQuantity(String(num));
+          }}
           style={{ width: 96 }}
         />
       </div>

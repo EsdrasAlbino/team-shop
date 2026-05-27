@@ -12,22 +12,13 @@ export default async function HomePage() {
           <div>
             <h1>Use as camisas mais bonitas da copa 2026.</h1>
           </div>
-          <div className="hero-panel">
-            <p>
-              Home com produtos mockados em JSON, página de produto com detalhes
-              do item selecionado e compra enviada direto para o WhatsApp.
-            </p>
-          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="section-header">
           <div>
-            <h2>Produtos mockados</h2>
-            <p>
-              Cada produto vem de um JSON local, sem banco de dados nesta fase.
-            </p>
+            <h2>Camisas</h2>
           </div>
           <span className="badge">{products.length} itens na vitrine</span>
         </div>
