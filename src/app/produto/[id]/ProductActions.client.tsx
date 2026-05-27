@@ -1,30 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
+import type { ProductVariation } from "@/lib/products";
 
-type ProductShape = {
-  id: string;
-  titulo: string;
-  preco: number;
-  imagem_url: string[];
-  descricao: string;
-  opcoes: {
-    tamanhos: string[];
-    cores?: string[];
-  };
-  disponivel: boolean;
+type ProductActionsProps = {
+  teamName: string;
+  variation: ProductVariation;
 };
 
-export default function ProductActions({ product }: { product: ProductShape }) {
+export default function ProductActions({ teamName, variation }: ProductActionsProps) {
   const [size, setSize] = useState<string | null>(null);
   const [quantity, setQuantity] = useState<string>("1");
-
-  function formatPrice(value: number) {
-    return new Intl.NumberFormat("pt-BR", {
-      style: "currency",
-      currency: "BRL",
-    }).format(value);
-  }
 
   function buildWhatsAppLink() {
     const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5581989114268";
@@ -32,16 +18,16 @@ export default function ProductActions({ product }: { product: ProductShape }) {
     const qty = Math.max(1, Number(quantity || "1"));
 
     const messageLines = [
-      `Olá! Quero a peça ${product.titulo}, ${qty} unidade(s), tamanho ${size ?? "a definir"}.`,
+      `Ola! Quero a peca ${teamName} - ${variation.titulo}, ${qty} unidade(s), tamanho ${size ?? "a definir"}.`,
     ].filter(Boolean) as string[];
 
     return `https://wa.me/${number}?text=${encodeURIComponent(messageLines.join("\n"))}`;
   }
 
   function handleBuyClick(e: React.MouseEvent) {
-    if (!product.disponivel) return;
+    if (!variation.disponivel) return;
     // Se tamanho é obrigatório, garantir seleção
-    if (product.opcoes.tamanhos.length > 0 && !size) {
+    if (variation.opcoes.tamanhos.length > 0 && !size) {
       e.preventDefault();
       const el = document.getElementById("size-selection");
       el?.focus();
@@ -57,7 +43,7 @@ export default function ProductActions({ product }: { product: ProductShape }) {
       <div className="option-group">
         <span className="option-label">Tamanhos</span>
         <div id="size-selection" className="chips" role="list">
-          {product.opcoes.tamanhos.map((t) => {
+          {variation.opcoes.tamanhos.map((t) => {
             const selected = t === size;
             return (
               <button
@@ -100,7 +86,7 @@ export default function ProductActions({ product }: { product: ProductShape }) {
         <button
           className="cta"
           onClick={handleBuyClick}
-          aria-disabled={!product.disponivel}
+          aria-disabled={!variation.disponivel}
         >
           Comprar no WhatsApp
         </button>

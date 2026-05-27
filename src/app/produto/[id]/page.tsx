@@ -1,44 +1,64 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatPrice, getProductById, getProducts } from "@/lib/products";
+import { formatPrice, getTeamById, getTeams, getVariationById } from "@/lib/products";
 import ProductActions from "./ProductActions.client";
 
 type ProductPageProps = {
   params: Promise<{
     id: string;
   }>;
+  searchParams: Promise<{
+    v?: string;
+  }>;
 };
 
 export async function generateStaticParams() {
-  const products = await getProducts();
+  const teams = await getTeams();
 
-  return products.map((product) => ({
-    id: product.id,
+  return teams.map((team) => ({
+    id: team.id,
   }));
 }
 
-export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: ProductPageProps): Promise<Metadata> {
   const { id } = await params;
-  const product = await getProductById(id);
+  const { v } = await searchParams;
+  const team = await getTeamById(id);
 
-  if (!product) {
+  if (!team) {
     return {
-      title: "Produto não encontrado | Genius Shop MVP",
+      title: "Selecao nao encontrada | Genius Shop MVP",
+    };
+  }
+
+  const variation = getVariationById(team, v);
+
+  if (!variation) {
+    return {
+      title: `${team.nome} | Genius Shop MVP`,
+      description: `Conheca as variacoes de camisa da selecao ${team.nome}.`,
     };
   }
 
   return {
-    title: `${product.titulo} | Genius Shop MVP`,
-    description: product.descricao,
+    title: `${team.nome} - ${variation.tipo.toUpperCase()} ${variation.temporada} | Genius Shop MVP`,
+    description: variation.descricao,
   };
 }
 
-export default async function ProductPage({ params }: ProductPageProps) {
+export default async function ProductPage({ params, searchParams }: ProductPageProps) {
   const { id } = await params;
-  const product = await getProductById(id);
+  const { v } = await searchParams;
+  const team = await getTeamById(id);
 
-  if (!product) {
+  if (!team) {
+    notFound();
+  }
+
+  const activeVariation = getVariationById(team, v);
+
+  if (!activeVariation) {
     notFound();
   }
 
@@ -49,18 +69,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <div className="product-frame">
             <div className="product-frame__preview">
               <div>
-                <strong>{product.titulo}</strong>
+                <strong>{activeVariation.titulo}</strong>
                 <img
-                  src={product.imagem_url?.[0] ?? "/camisa/placeholder.jpg"}
-                  alt={product.titulo}
+                  src={activeVariation.imagem_url?.[0] ?? "/camisa/placeholder.jpg"}
+                  alt={activeVariation.titulo}
                   className="product-frame__img"
                 />
               </div>
             </div>
 
             <div className="summary-row">
-              <span className={`badge ${product.disponivel ? "badge--available" : ""}`}>
-                {product.disponivel ? "Produto disponível" : "Produto indisponível"}
+              <span className={`badge ${activeVariation.disponivel ? "badge--available" : ""}`}>
+                {activeVariation.disponivel ? "Produto disponivel" : "Produto indisponivel"}
               </span>
             </div>
           </div>
@@ -69,19 +89,38 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <aside className="product-summary">
           <div className="summary-stack">
             <div>
-              <p className="eyebrow">Página do produto</p>
-              <h1 className="product-title">{product.titulo}</h1>
+              <p className="eyebrow">Pagina da selecao</p>
+              <h1 className="product-title">{team.nome}</h1>
             </div>
 
             <div className="summary-row">
-              <strong className="price">{formatPrice(product.preco)}</strong>
-              <span className="badge">ID: {product.id}</span>
+              <strong className="price">{formatPrice(activeVariation.preco)}</strong>
+              <span className="badge">Variacao: {activeVariation.tipo.toUpperCase()}</span>
             </div>
 
-            <p className="product-copy">{product.descricao}</p>
+            <p className="product-copy">{activeVariation.descricao}</p>
 
             <div className="option-group">
+              <span className="option-label">Variacoes</span>
+              <div className="chips" role="list">
+                {team.variations.map((variation) => {
+                  const isSelected = variation.id === activeVariation.id;
 
+                  return (
+                    <Link
+                      key={variation.id}
+                      href={`/produto/${team.id}?v=${variation.id}`}
+                      className={`chip ${isSelected ? "chip--selected" : ""}`}
+                      aria-current={isSelected ? "page" : undefined}
+                    >
+                      {variation.tipo.toUpperCase()} {variation.temporada}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="option-group">
               <p className="meta-note">
                 Selecione o tamanho e a quantidade. O botão Comprar abre o
                 WhatsApp com uma mensagem padrão para iniciar a conversa de
@@ -91,7 +130,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
             {/* Componente cliente para seleção interativa de tamanho e quantidade */}
             {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-            <ProductActions product={product} />
+            <ProductActions teamName={team.nome} variation={activeVariation} />
 
             <Link href="/" className="back-link">
               Voltar para a vitrine

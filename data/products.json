@@ -1,875 +1,2471 @@
 [
   {
-    "id": "brasil-home-2026",
-    "titulo": "Camisa Seleção Brasileira Home - Amarela",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/brasil-home.jpg"],
-    "descricao": "A clássica amarelinha com tecido tecnológico de alta respirabilidade. Ideal para torcer e usar no dia a dia.",
-    "opcoes": {
-      "tamanhos": ["P", "M", "G", "GG"],
-      "cores": ["Amarelo Ouro"]
-    },
-    "disponivel": true
-  },
-  {
-    "id": "argentina-home-2026",
-    "titulo": "Camisa Seleção Argentina Home - Alviceleste",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/argentina-home.jpg"],
-    "descricao": "As tradicionais listras em azul celeste e branco, com escudo bordado e patch oficial.",
-    "opcoes": {
-      "tamanhos": ["M", "G", "GG"],
-      "cores": ["Azul Celeste/Branco"]
-    },
-    "disponivel": true
-  },
-  {
-    "id": "franca-home-2026",
-    "titulo": "Camisa Seleção Francesa Home - Azul",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/franca-home.jpg"],
-    "descricao": "Design elegante em azul-marinho com detalhes em dourado. Linha premium para o MVP.",
-    "opcoes": {
-      "tamanhos": ["P", "M", "G"],
-      "cores": ["Azul-Marinho"]
-    },
-    "disponivel": true
-  },
-  {
-    "id": "japao-special-2026",
-    "titulo": "Camisa Seleção do Japão",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/japao-home.jpg"],
-    "descricao": "Edição especial com estampa texturizada inspirada na cultura artística japonesa. Sucesso de vendas.",
-    "opcoes": {
-      "tamanhos": ["P", "M", "G", "GG"],
-      "cores": ["Azul/Arte"]
-    },
-    "disponivel": true
-  },
-  {
-    "id": "alemanha-away-2026",
-    "titulo": "Camisa Seleção Alemã Away - Preta/Rosa",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/alemanha-away.jpg"],
-    "descricao": "Modelo reserva com um design moderno e disruptivo, misturando tons escuros e vibrantes.",
-    "opcoes": {
-      "tamanhos": ["M", "G"],
-      "cores": ["Preto/Rosa"]
-    },
-    "disponivel": false
-  },
-  {
-    "id": "portugal-home-2026",
-    "titulo": "Camisa Seleção de Portugal Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/portugal-home.jpg"],
-    "descricao": "O clássico rubro-verde com detalhes elegantes na gola. Conforto e caimento perfeito.",
-    "opcoes": {
-      "tamanhos": ["P", "M", "G", "GG"],
-      "cores": ["Vermelho Escuro"]
-    },
-    "disponivel": true
-  },
-  {
-    "id": "inglaterra-home-2026",
-    "titulo": "Camisa Inglaterra Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/inglaterra-home.jpg"],
-    "descricao": "Camisa oficial da seleção Inglaterra — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "espanha-home-2026",
-    "titulo": "Camisa Espanha Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/espanha-home.jpg"],
-    "descricao": "Camisa oficial da seleção Espanha — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "holanda-home-2026",
-    "titulo": "Camisa Holanda Home - Laranja",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/holanda-home.jpg"],
-    "descricao": "Camisa oficial da seleção Holanda — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "belgica-home-2026",
-    "titulo": "Camisa Bélgica Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/belgica-home.jpg"],
-    "descricao": "Camisa oficial da seleção Bélgica — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "croacia-home-2026",
-    "titulo": "Camisa Croácia Home - Grid",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/croacia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Croácia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "suica-home-2026",
-    "titulo": "Camisa Suíça Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/suica-home.jpg"],
-    "descricao": "Camisa oficial da seleção Suíça — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "suecia-home-2026",
-    "titulo": "Camisa Suécia Home - Amarela",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/suecia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Suécia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "austria-home-2026",
-    "titulo": "Camisa Áustria Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/austria-home.jpg"],
-    "descricao": "Camisa oficial da seleção Áustria — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "republica-tcheca-home-2026",
-    "titulo": "Camisa República Tcheca Home - Vinho",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/republica-tcheca-home.jpg"],
-    "descricao": "Camisa oficial da seleção República Tcheca — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "turquia-home-2026",
-    "titulo": "Camisa Turquia Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/turquia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Turquia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "noruega-home-2026",
-    "titulo": "Camisa Noruega Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/noruega-home.jpg"],
-    "descricao": "Camisa oficial da seleção Noruega — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "marrocos-home-2026",
-    "titulo": "Camisa Marrocos Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/marrocos-home.jpg"],
-    "descricao": "Camisa oficial da seleção Marrocos — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "senegal-home-2026",
-    "titulo": "Camisa Senegal Home - Verde",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/senegal-home.jpg"],
-    "descricao": "Camisa oficial da seleção Senegal — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "tunisia-home-2026",
-    "titulo": "Camisa Tunísia Home - Branca",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/tunisia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Tunísia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "argelia-home-2026",
-    "titulo": "Camisa Argélia Home - Verde",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/argelia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Argélia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "egito-home-2026",
-    "titulo": "Camisa Egito Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/egito-home.jpg"],
-    "descricao": "Camisa oficial da seleção Egito — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "gana-home-2026",
-    "titulo": "Camisa Gana Home - Preta",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/gana-home.jpg"],
-    "descricao": "Camisa oficial da seleção Gana — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "estados-unidos-home-2026",
-    "titulo": "Camisa Estados Unidos Home - Branca",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/estados-unidos-home.jpg"],
-    "descricao": "Camisa oficial da seleção Estados Unidos — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "canada-home-2026",
-    "titulo": "Camisa Canadá Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/canada-home.jpg"],
-    "descricao": "Camisa oficial da seleção Canadá — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "mexico-home-2026",
-    "titulo": "Camisa México Home - Verde",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/mexico-home.jpg"],
-    "descricao": "Camisa oficial da seleção México — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "panama-home-2026",
-    "titulo": "Camisa Panamá Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/panama-home.jpg"],
-    "descricao": "Camisa oficial da seleção Panamá — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "uruguai-home-2026",
-    "titulo": "Camisa Uruguai Home - Celeste",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/uruguai-home.jpg"],
-    "descricao": "Camisa oficial da seleção Uruguai — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "colombia-home-2026",
-    "titulo": "Camisa Colômbia Home - Amarela",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/colombia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Colômbia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "equador-home-2026",
-    "titulo": "Camisa Equador Home - Amarela",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/equador-home.jpg"],
-    "descricao": "Camisa oficial da seleção Equador — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "australia-home-2026",
-    "titulo": "Camisa Austrália Home - Amarela",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/australia-home.jpg"],
-    "descricao": "Camisa oficial da seleção Austrália — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "coreia-do-sul-home-2026",
-    "titulo": "Camisa Coreia do Sul Home - Vermelha",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/coreia-do-sul-home.webp"],
-    "descricao": "Camisa oficial da seleção Coreia do Sul — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "iran-home-2026",
-    "titulo": "Camisa Irã Home - Branca",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/ira-home.jpg"],
-    "descricao": "Camisa oficial da seleção Irã — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "arabia-saudita-home-2026",
-    "titulo": "Camisa Arábia Saudita",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/arabia-saudita-away.jpg"],
-    "descricao": "Camisa oficial da seleção Arábia Saudita — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "qatar-home-2026",
-    "titulo": "Camisa Qatar Home - Marrom",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/qatar-home.jpg"],
-    "descricao": "Camisa oficial da seleção Qatar — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "nova-home-2026",
-    "titulo": "Camisa Nova Zelândia Home - Preta",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/nova-home.jpg"],
-    "descricao": "Camisa oficial da seleção Nova Zelândia — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "africa-do-sul-home-2026",
-    "titulo": "Camisa África do Sul",
-    "preco": 129.90,
-    "imagem_url": ["/camisa/africa-do-sul-home.jpg"],
-    "descricao": "Camisa oficial da seleção África do Sul — versão Home para 2026.",
-    "opcoes": { "tamanhos": ["P","M","G","GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "africa-do-sul-away-2026",
-    "titulo": "Camisa África do Sul Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/africa-do-sul-away.jpg"],
-    "descricao": "Versão away da seleção África do Sul para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "alemanha-home-2026",
-    "titulo": "Camisa Alemanha Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/alemanha-home.jpg"],
-    "descricao": "Versão home da seleção Alemanha para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "argelia-away-2026",
-    "titulo": "Camisa Argélia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/argelia-away.jpg"],
-    "descricao": "Versão away da seleção Argélia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "argentina-away-2026",
-    "titulo": "Camisa Argentina Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/argentina-away.jpg"],
-    "descricao": "Versão away da seleção Argentina para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "australia-away-2026",
-    "titulo": "Camisa Austrália Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/australia-away.jpg"],
-    "descricao": "Versão away da seleção Austrália para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "austria-away-2026",
-    "titulo": "Camisa Áustria Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/austria-away.jpg"],
-    "descricao": "Versão away da seleção Áustria para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "belgica-away-2026",
-    "titulo": "Camisa Bélgica Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/belgica-away.jpg"],
-    "descricao": "Versão away da seleção Bélgica para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "bosnia-away-2026",
-    "titulo": "Camisa Bósnia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/bosnia-away.jpg"],
-    "descricao": "Versão away da seleção Bósnia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "bosnia-home-2026",
-    "titulo": "Camisa Bósnia Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/bosnia-home.jpg"],
-    "descricao": "Versão home da seleção Bósnia para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "brasil-away-2026",
-    "titulo": "Camisa Brasil Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/brasil-away.jpg"],
-    "descricao": "Versão away da seleção Brasil para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "cabo-verde-away-2026",
-    "titulo": "Camisa Cabo Verde Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/cabo-verde-away.jpg"],
-    "descricao": "Versão away da seleção Cabo Verde para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "cabo-verde-home-2026",
-    "titulo": "Camisa Cabo Verde Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/cabo-verde-home.jpg"],
-    "descricao": "Versão home da seleção Cabo Verde para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "canada-away-2026",
-    "titulo": "Camisa Canadá Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/canada-away.jpg"],
-    "descricao": "Versão away da seleção Canadá para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "colombia-away-2026",
-    "titulo": "Camisa Colômbia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/colombia-away.jpg"],
-    "descricao": "Versão away da seleção Colômbia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "congo-away-2026",
-    "titulo": "Camisa Congo Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/congo-away.webp"],
-    "descricao": "Versão away da seleção Congo para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "congo-home-2026",
-    "titulo": "Camisa Congo Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/congo-home.webp"],
-    "descricao": "Versão home da seleção Congo para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "coreia-do-sul-away-2026",
-    "titulo": "Camisa Coreia do Sul Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/coreia-do-sul-away.jpg"],
-    "descricao": "Versão away da seleção Coreia do Sul para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "costa-do-marfim-away-2026",
-    "titulo": "Camisa Costa do Marfim Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/costa-do-marfim-away.jpg"],
-    "descricao": "Versão away da seleção Costa do Marfim para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "costa-do-marfim-home-2026",
-    "titulo": "Camisa Costa do Marfim Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/costa-do-marfim-home.jpg"],
-    "descricao": "Versão home da seleção Costa do Marfim para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "croacia-away-2026",
-    "titulo": "Camisa Croácia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/croacia-away.jpg"],
-    "descricao": "Versão away da seleção Croácia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "curacao-away-2026",
-    "titulo": "Camisa Curaçao Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/curacao-away.jpg"],
-    "descricao": "Versão away da seleção Curaçao para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "curacao-home-2026",
-    "titulo": "Camisa Curaçao Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/curacao-home.jpg"],
-    "descricao": "Versão home da seleção Curaçao para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "egito-away-2026",
-    "titulo": "Camisa Egito Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/egito-away.jpg"],
-    "descricao": "Versão away da seleção Egito para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "equador-away-2026",
-    "titulo": "Camisa Equador Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/equador-away.jpg"],
-    "descricao": "Versão away da seleção Equador para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "escocia-away-2026",
-    "titulo": "Camisa Escócia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/escocia-away.jpg"],
-    "descricao": "Versão away da seleção Escócia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "escocia-home-2026",
-    "titulo": "Camisa Escócia Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/escocia-home.jpg"],
-    "descricao": "Versão home da seleção Escócia para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "espanha-away-2026",
-    "titulo": "Camisa Espanha Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/espanha-away.jpg"],
-    "descricao": "Versão away da seleção Espanha para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "estados-unidos-away-2026",
-    "titulo": "Camisa Estados Unidos Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/estados-unidos-away.jpg"],
-    "descricao": "Versão away da seleção Estados Unidos para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "franca-away-2026",
-    "titulo": "Camisa França Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/franca-away.jpg"],
-    "descricao": "Versão away da seleção França para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "gana-away-2026",
-    "titulo": "Camisa Gana Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/gana-away.jpg"],
-    "descricao": "Versão away da seleção Gana para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "haiti-away-2026",
-    "titulo": "Camisa Haiti Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/haiti-away.jpg"],
-    "descricao": "Versão away da seleção Haiti para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "haiti-home-2026",
-    "titulo": "Camisa Haiti Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/haiti-home.jpg"],
-    "descricao": "Versão home da seleção Haiti para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "holanda-away-2026",
-    "titulo": "Camisa Holanda Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/holanda-away.jpg"],
-    "descricao": "Versão away da seleção Holanda para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "inglaterra-away-2026",
-    "titulo": "Camisa Inglaterra Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/inglaterra-away.jpg"],
-    "descricao": "Versão away da seleção Inglaterra para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "ira-away-2026",
-    "titulo": "Camisa Irã Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/ira-away.jpg"],
-    "descricao": "Versão away da seleção Irã para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "iraque-away-2026",
-    "titulo": "Camisa Iraque Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/iraque-away.jpg"],
-    "descricao": "Versão away da seleção Iraque para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "iraque-home-2026",
-    "titulo": "Camisa Iraque Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/iraque-home.jpg"],
-    "descricao": "Versão home da seleção Iraque para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "japao-away-2026",
-    "titulo": "Camisa Japão Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/japao-away.jpg"],
-    "descricao": "Versão away da seleção Japão para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "jordania-away-2026",
-    "titulo": "Camisa Jordânia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/jordania-away.jpg"],
-    "descricao": "Versão away da seleção Jordânia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "jordania-home-2026",
-    "titulo": "Camisa Jordânia Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/jordania-home.jpg"],
-    "descricao": "Versão home da seleção Jordânia para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "marrocos-away-2026",
-    "titulo": "Camisa Marrocos Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/marrocos-away.jpg"],
-    "descricao": "Versão away da seleção Marrocos para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "mexico-away-2026",
-    "titulo": "Camisa México Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/mexico-away.jpg"],
-    "descricao": "Versão away da seleção México para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "noruega-away-2026",
-    "titulo": "Camisa Noruega Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/noruega-away.jpg"],
-    "descricao": "Versão away da seleção Noruega para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "nova-zelandia-away-2026",
-    "titulo": "Camisa Nova Zelândia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/nova-zelandia-away.jpg"],
-    "descricao": "Versão away da seleção Nova Zelândia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "panama-away-2026",
-    "titulo": "Camisa Panamá Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/panama-away.webp"],
-    "descricao": "Versão away da seleção Panamá para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "paraguai-away-2026",
-    "titulo": "Camisa Paraguai Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/paraguai-away.jpg"],
-    "descricao": "Versão away da seleção Paraguai para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "paraguai-home-2026",
-    "titulo": "Camisa Paraguai Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/paraguai-home.jpg"],
-    "descricao": "Versão home da seleção Paraguai para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "portugal-away-2026",
-    "titulo": "Camisa Portugal Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/portugal-away.jpg"],
-    "descricao": "Versão away da seleção Portugal para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "qatar-away-2026",
-    "titulo": "Camisa Qatar Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/qatar-away.jpg"],
-    "descricao": "Versão away da seleção Qatar para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "republica-tcheca-away-2026",
-    "titulo": "Camisa República Tcheca Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/republica-tcheca-away.jpg"],
-    "descricao": "Versão away da seleção República Tcheca para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "senegal-away-2026",
-    "titulo": "Camisa Senegal Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/senegal-away.jpg"],
-    "descricao": "Versão away da seleção Senegal para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "suecia-away-2026",
-    "titulo": "Camisa Suécia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/suecia-away.jpg"],
-    "descricao": "Versão away da seleção Suécia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "suica-away-2026",
-    "titulo": "Camisa Suíça Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/suica-away.jpg"],
-    "descricao": "Versão away da seleção Suíça para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "tunisia-away-2026",
-    "titulo": "Camisa Tunísia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/tunisia-away.jpg"],
-    "descricao": "Versão away da seleção Tunísia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "turquia-away-2026",
-    "titulo": "Camisa Turquia Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/turquia-away.jpg"],
-    "descricao": "Versão away da seleção Turquia para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "uruguai-away-2026",
-    "titulo": "Camisa Uruguai Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/uruguai-away.jpg"],
-    "descricao": "Versão away da seleção Uruguai para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "uzbequistao-away-2026",
-    "titulo": "Camisa Uzbequistão Away",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/uzbequistao-away.jpg"],
-    "descricao": "Versão away da seleção Uzbequistão para 2026, com acabamento leve e visual moderno.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
-  },
-  {
-    "id": "uzbequistao-home-2026",
-    "titulo": "Camisa Uzbequistão Home",
-    "preco": 129.9,
-    "imagem_url": ["/camisa/uzbequistao-home.jpg"],
-    "descricao": "Versão home da seleção Uzbequistão para 2026, com tecido respirável e caimento confortável.",
-    "opcoes": { "tamanhos": ["P", "M", "G", "GG"], "cores": ["Padrão"] },
-    "disponivel": true
+    "id": "brasil",
+    "nome": "Brasil",
+    "variations": [
+      {
+        "id": "brasil-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção Brasileira Home - Amarela",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/brasil-home.jpg"
+        ],
+        "descricao": "A clássica amarelinha com tecido tecnológico de alta respirabilidade. Ideal para torcer e usar no dia a dia.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Amarelo Ouro"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "brasil-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Brasil Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/brasil-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Brasil para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "argentina",
+    "nome": "Argentina",
+    "variations": [
+      {
+        "id": "argentina-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção Argentina Home - Alviceleste",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/argentina-home.jpg"
+        ],
+        "descricao": "As tradicionais listras em azul celeste e branco, com escudo bordado e patch oficial.",
+        "opcoes": {
+          "tamanhos": [
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Azul Celeste/Branco"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "argentina-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Argentina Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/argentina-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Argentina para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "franca",
+    "nome": "Franca",
+    "variations": [
+      {
+        "id": "franca-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção Francesa Home - Azul",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/franca-home.jpg"
+        ],
+        "descricao": "Design elegante em azul-marinho com detalhes em dourado. Linha premium para o MVP.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G"
+          ],
+          "cores": [
+            "Azul-Marinho"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "franca-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa França Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/franca-away.jpg"
+        ],
+        "descricao": "Versão away da seleção França para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "japao",
+    "nome": "Japao",
+    "variations": [
+      {
+        "id": "japao-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Japão Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/japao-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Japão para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "japao-special-2026",
+        "tipo": "special",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção do Japão",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/japao-home.jpg"
+        ],
+        "descricao": "Edição especial com estampa texturizada inspirada na cultura artística japonesa. Sucesso de vendas.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Azul/Arte"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "alemanha",
+    "nome": "Alemanha",
+    "variations": [
+      {
+        "id": "alemanha-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Alemanha Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/alemanha-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Alemanha para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "alemanha-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção Alemã Away - Preta/Rosa",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/alemanha-away.jpg"
+        ],
+        "descricao": "Modelo reserva com um design moderno e disruptivo, misturando tons escuros e vibrantes.",
+        "opcoes": {
+          "tamanhos": [
+            "M",
+            "G"
+          ],
+          "cores": [
+            "Preto/Rosa"
+          ]
+        },
+        "disponivel": false
+      }
+    ]
+  },
+  {
+    "id": "portugal",
+    "nome": "Portugal",
+    "variations": [
+      {
+        "id": "portugal-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Seleção de Portugal Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/portugal-home.jpg"
+        ],
+        "descricao": "O clássico rubro-verde com detalhes elegantes na gola. Conforto e caimento perfeito.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Vermelho Escuro"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "portugal-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Portugal Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/portugal-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Portugal para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "inglaterra",
+    "nome": "Inglaterra",
+    "variations": [
+      {
+        "id": "inglaterra-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Inglaterra Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/inglaterra-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Inglaterra — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "inglaterra-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Inglaterra Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/inglaterra-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Inglaterra para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "espanha",
+    "nome": "Espanha",
+    "variations": [
+      {
+        "id": "espanha-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Espanha Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/espanha-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Espanha — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "espanha-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Espanha Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/espanha-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Espanha para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "holanda",
+    "nome": "Holanda",
+    "variations": [
+      {
+        "id": "holanda-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Holanda Home - Laranja",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/holanda-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Holanda — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "holanda-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Holanda Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/holanda-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Holanda para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "belgica",
+    "nome": "Belgica",
+    "variations": [
+      {
+        "id": "belgica-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Bélgica Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/belgica-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Bélgica — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "belgica-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Bélgica Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/belgica-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Bélgica para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "croacia",
+    "nome": "Croacia",
+    "variations": [
+      {
+        "id": "croacia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Croácia Home - Grid",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/croacia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Croácia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "croacia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Croácia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/croacia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Croácia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "suica",
+    "nome": "Suica",
+    "variations": [
+      {
+        "id": "suica-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Suíça Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/suica-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Suíça — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "suica-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Suíça Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/suica-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Suíça para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "suecia",
+    "nome": "Suecia",
+    "variations": [
+      {
+        "id": "suecia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Suécia Home - Amarela",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/suecia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Suécia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "suecia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Suécia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/suecia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Suécia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "austria",
+    "nome": "Austria",
+    "variations": [
+      {
+        "id": "austria-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Áustria Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/austria-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Áustria — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "austria-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Áustria Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/austria-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Áustria para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "republica-tcheca",
+    "nome": "Republica Tcheca",
+    "variations": [
+      {
+        "id": "republica-tcheca-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa República Tcheca Home - Vinho",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/republica-tcheca-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção República Tcheca — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "republica-tcheca-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa República Tcheca Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/republica-tcheca-away.jpg"
+        ],
+        "descricao": "Versão away da seleção República Tcheca para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "turquia",
+    "nome": "Turquia",
+    "variations": [
+      {
+        "id": "turquia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Turquia Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/turquia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Turquia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "turquia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Turquia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/turquia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Turquia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "noruega",
+    "nome": "Noruega",
+    "variations": [
+      {
+        "id": "noruega-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Noruega Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/noruega-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Noruega — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "noruega-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Noruega Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/noruega-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Noruega para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "marrocos",
+    "nome": "Marrocos",
+    "variations": [
+      {
+        "id": "marrocos-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Marrocos Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/marrocos-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Marrocos — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "marrocos-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Marrocos Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/marrocos-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Marrocos para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "senegal",
+    "nome": "Senegal",
+    "variations": [
+      {
+        "id": "senegal-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Senegal Home - Verde",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/senegal-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Senegal — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "senegal-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Senegal Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/senegal-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Senegal para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "tunisia",
+    "nome": "Tunisia",
+    "variations": [
+      {
+        "id": "tunisia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Tunísia Home - Branca",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/tunisia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Tunísia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "tunisia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Tunísia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/tunisia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Tunísia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "argelia",
+    "nome": "Argelia",
+    "variations": [
+      {
+        "id": "argelia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Argélia Home - Verde",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/argelia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Argélia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "argelia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Argélia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/argelia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Argélia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "egito",
+    "nome": "Egito",
+    "variations": [
+      {
+        "id": "egito-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Egito Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/egito-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Egito — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "egito-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Egito Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/egito-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Egito para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "gana",
+    "nome": "Gana",
+    "variations": [
+      {
+        "id": "gana-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Gana Home - Preta",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/gana-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Gana — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "gana-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Gana Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/gana-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Gana para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "estados-unidos",
+    "nome": "Estados Unidos",
+    "variations": [
+      {
+        "id": "estados-unidos-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Estados Unidos Home - Branca",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/estados-unidos-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Estados Unidos — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "estados-unidos-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Estados Unidos Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/estados-unidos-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Estados Unidos para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "canada",
+    "nome": "Canada",
+    "variations": [
+      {
+        "id": "canada-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Canadá Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/canada-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Canadá — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "canada-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Canadá Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/canada-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Canadá para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "mexico",
+    "nome": "Mexico",
+    "variations": [
+      {
+        "id": "mexico-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa México Home - Verde",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/mexico-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção México — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "mexico-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa México Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/mexico-away.jpg"
+        ],
+        "descricao": "Versão away da seleção México para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "panama",
+    "nome": "Panama",
+    "variations": [
+      {
+        "id": "panama-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Panamá Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/panama-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Panamá — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "panama-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Panamá Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/panama-away.webp"
+        ],
+        "descricao": "Versão away da seleção Panamá para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "uruguai",
+    "nome": "Uruguai",
+    "variations": [
+      {
+        "id": "uruguai-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Uruguai Home - Celeste",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/uruguai-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Uruguai — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "uruguai-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Uruguai Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/uruguai-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Uruguai para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "colombia",
+    "nome": "Colombia",
+    "variations": [
+      {
+        "id": "colombia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Colômbia Home - Amarela",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/colombia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Colômbia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "colombia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Colômbia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/colombia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Colômbia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "equador",
+    "nome": "Equador",
+    "variations": [
+      {
+        "id": "equador-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Equador Home - Amarela",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/equador-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Equador — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "equador-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Equador Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/equador-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Equador para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "australia",
+    "nome": "Australia",
+    "variations": [
+      {
+        "id": "australia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Austrália Home - Amarela",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/australia-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Austrália — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "australia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Austrália Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/australia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Austrália para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "coreia-do-sul",
+    "nome": "Coreia Do Sul",
+    "variations": [
+      {
+        "id": "coreia-do-sul-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Coreia do Sul Home - Vermelha",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/coreia-do-sul-home.webp"
+        ],
+        "descricao": "Camisa oficial da seleção Coreia do Sul — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "coreia-do-sul-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Coreia do Sul Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/coreia-do-sul-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Coreia do Sul para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "iran",
+    "nome": "Iran",
+    "variations": [
+      {
+        "id": "iran-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Irã Home - Branca",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/ira-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Irã — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "ira-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Irã Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/ira-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Irã para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "arabia-saudita",
+    "nome": "Arabia Saudita",
+    "variations": [
+      {
+        "id": "arabia-saudita-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Arábia Saudita",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/arabia-saudita-away.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Arábia Saudita — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "qatar",
+    "nome": "Qatar",
+    "variations": [
+      {
+        "id": "qatar-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Qatar Home - Marrom",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/qatar-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Qatar — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "qatar-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Qatar Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/qatar-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Qatar para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "nova-zelandia",
+    "nome": "Nova Zelandia",
+    "variations": [
+      {
+        "id": "nova-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Nova Zelândia Home - Preta",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/nova-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção Nova Zelândia — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "nova-zelandia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Nova Zelândia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/nova-zelandia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Nova Zelândia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "africa-do-sul",
+    "nome": "Africa Do Sul",
+    "variations": [
+      {
+        "id": "africa-do-sul-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa África do Sul",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/africa-do-sul-home.jpg"
+        ],
+        "descricao": "Camisa oficial da seleção África do Sul — versão Home para 2026.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "africa-do-sul-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa África do Sul Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/africa-do-sul-away.jpg"
+        ],
+        "descricao": "Versão away da seleção África do Sul para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "bosnia",
+    "nome": "Bosnia",
+    "variations": [
+      {
+        "id": "bosnia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Bósnia Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/bosnia-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Bósnia para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "bosnia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Bósnia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/bosnia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Bósnia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "cabo-verde",
+    "nome": "Cabo Verde",
+    "variations": [
+      {
+        "id": "cabo-verde-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Cabo Verde Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/cabo-verde-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Cabo Verde para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "cabo-verde-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Cabo Verde Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/cabo-verde-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Cabo Verde para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "congo",
+    "nome": "Congo",
+    "variations": [
+      {
+        "id": "congo-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Congo Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/congo-home.webp"
+        ],
+        "descricao": "Versão home da seleção Congo para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "congo-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Congo Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/congo-away.webp"
+        ],
+        "descricao": "Versão away da seleção Congo para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "costa-do-marfim",
+    "nome": "Costa Do Marfim",
+    "variations": [
+      {
+        "id": "costa-do-marfim-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Costa do Marfim Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/costa-do-marfim-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Costa do Marfim para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "costa-do-marfim-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Costa do Marfim Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/costa-do-marfim-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Costa do Marfim para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "curacao",
+    "nome": "Curacao",
+    "variations": [
+      {
+        "id": "curacao-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Curaçao Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/curacao-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Curaçao para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "curacao-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Curaçao Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/curacao-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Curaçao para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "escocia",
+    "nome": "Escocia",
+    "variations": [
+      {
+        "id": "escocia-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Escócia Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/escocia-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Escócia para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "escocia-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Escócia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/escocia-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Escócia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "haiti",
+    "nome": "Haiti",
+    "variations": [
+      {
+        "id": "haiti-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Haiti Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/haiti-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Haiti para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "haiti-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Haiti Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/haiti-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Haiti para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "iraque",
+    "nome": "Iraque",
+    "variations": [
+      {
+        "id": "iraque-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Iraque Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/iraque-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Iraque para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "iraque-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Iraque Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/iraque-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Iraque para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "jordania",
+    "nome": "Jordania",
+    "variations": [
+      {
+        "id": "jordania-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Jordânia Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/jordania-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Jordânia para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "jordania-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Jordânia Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/jordania-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Jordânia para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "paraguai",
+    "nome": "Paraguai",
+    "variations": [
+      {
+        "id": "paraguai-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Paraguai Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/paraguai-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Paraguai para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "paraguai-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Paraguai Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/paraguai-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Paraguai para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
+  },
+  {
+    "id": "uzbequistao",
+    "nome": "Uzbequistao",
+    "variations": [
+      {
+        "id": "uzbequistao-home-2026",
+        "tipo": "home",
+        "temporada": "2026",
+        "titulo": "Camisa Uzbequistão Home",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/uzbequistao-home.jpg"
+        ],
+        "descricao": "Versão home da seleção Uzbequistão para 2026, com tecido respirável e caimento confortável.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      },
+      {
+        "id": "uzbequistao-away-2026",
+        "tipo": "away",
+        "temporada": "2026",
+        "titulo": "Camisa Uzbequistão Away",
+        "preco": 129.9,
+        "imagem_url": [
+          "/camisa/uzbequistao-away.jpg"
+        ],
+        "descricao": "Versão away da seleção Uzbequistão para 2026, com acabamento leve e visual moderno.",
+        "opcoes": {
+          "tamanhos": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ],
+          "cores": [
+            "Padrão"
+          ]
+        },
+        "disponivel": true
+      }
+    ]
   }
 ]
